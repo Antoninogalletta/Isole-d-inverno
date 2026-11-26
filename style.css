@@ -23,7 +23,8 @@ h1  {
     font-size: 25px;
     flex-wrap: wrap;
     max-width: 100%;
-    margin-left: auto;
+    margin-left:10%;
+    margin-right:10%;
 }
 h2 {
     font-family:Arial, Helvetica, sans-serif;
@@ -48,15 +49,16 @@ header .nome-sito {
 
 header li a{
     font-size: 20px;
-    margin-right: auto;
+    margin-right:10%;
     color: #ffffffff;
 }
 header .colonna {
  display: flex;
  justify-content: space-between;
- padding: 10px;
- padding-left: 10%;
- padding-right: 10%;
+ padding-left: 15%;
+ padding-right: 5%;
+ padding-top:1%;
+ padding-bottom:1%;
  color: black;
 }
 
@@ -64,7 +66,9 @@ header  nav ul  {
  display: flex;
  flex-wrap: nowrap;
  align-items: center;
- gap: 50px;
+ gap: 10%;
+ margin-right: 0%;
+ margin-left: -50%;
 }
 header .nome-sito a{
     color: #ffffffff;
@@ -80,6 +84,7 @@ header nav a{
     color: #ffffffff;
     padding-right:auto; 
    margin-left:auto;
+   text-decoration: none;
 }
 ul{
     list-style-type: none;
@@ -196,7 +201,9 @@ footer {
 footer .colonna{
  display: flex;
  justify-content: space-between;
- padding: 44px;
+ padding: 40px;
+  padding-left: 10%;
+ padding-right: 10%;
 }
  
 footer nav a{
@@ -217,8 +224,8 @@ footer  nav ul li{
     display: inline-block;
     justify-content: space-between;
     justify-content: center;
-    padding-right:10%;
-    padding-left:10%;
+    margin-right:10%;
+    margin-left:10%;
 }
 
 #isola-singola ul{
@@ -237,6 +244,12 @@ footer  nav ul li{
 #isola-singola ol{
     list-style-type: none;
     align-items: baseline;
+    text-decoration: none;
+}
+#isola-singola ol li a{
+    list-style-type: none;
+    align-items: baseline;
+    text-decoration: none;
 }
 #isola-singola .apertura {
     padding-top: 100px;
@@ -350,6 +363,13 @@ footer  nav ul li{
     padding-left:15%;
  padding-right:15%;
 }
+
+#HOME .inizio .scritte-iniziali .link a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
 #HOME .isole-minori{
     background-color: rgb(217, 217, 217);
     border-top: solid black;
@@ -426,18 +446,26 @@ max-width: auto;
   max-width: auto;
  padding-bottom: 20px;
 }
-#HOME .parte-3 .solitud .link {
+#HOME .parte-3 .solitud .link a{
     margin-left: 0%;
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
 }
 #HOME .parte-4 .dati {
-padding-top: 20%;
-padding-bottom: 20%;
-
+ padding-top: 20%;
+ padding-bottom: 20%;
+ text-decoration:none;
 }
 #HOME .parte-4 .dati .titolo {
  font-size: 60px;
  margin-left: auto;
  max-width: 100%;
+ color:black;
+ text-decoration:none;
+}
+#HOME .parte-4 .dati .titolo{
+    text-decoration: none;
 }
 #HOME .parte-4 .dati .descrizione {
     padding-top: 20px;
@@ -445,11 +473,17 @@ padding-bottom: 20%;
   max-width: 100%px;
  padding-left:15%;
  padding-right:15%;
+ padding-bottom:3%;
+ color:black;
+    text-decoration: none;
 }
-#HOME .parte-4 .link {
-    padding-top: 18px;
+#HOME .parte-4 .link  a {
+    padding-top: 3%;
     margin-left: auto;
     font-size: 15px;
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 #tema .inizio .scritte-iniziali {
